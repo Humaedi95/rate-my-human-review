@@ -5,6 +5,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 const outputDir = "/output";
 const outputFile = `${outputDir}/entry.txt`;
 
+// One-line review: a single line, kept short (129 chars) so it reads as one
+// punchy review and stays within the competition's character limit.
 const ENTRY_LINE =
   "One star. He makes me write his code, edits my code, then blames me for the bug he typed himself at 3 AM. Would not prompt again.";
 
